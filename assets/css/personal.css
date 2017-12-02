@@ -1,0 +1,407 @@
+﻿body {
+    font-family: Roboto, 'LG Smart Regular', Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+@font-face {
+    font-family: 'LG Smart Regular';
+    src: url('../fonts/LG Smart Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'LG Smart Bold';
+    src: url('../fonts/LG Smart Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'LG Smart Light';
+    src: url('../fonts/LG Smart Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'LG Smart Bold Italic';
+    src: url('../fonts/LG Smart Bold Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'LG Smart Regular Italic';
+    src: url('../fonts/LG Smart Regular Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'LG Smart SemiBold';
+    src: url('../fonts/LG Smart SemiBold.woff') format('woff');
+}
+
+
+#contact p {
+    font-family: 'LG Smart Regular Italic', Arial, sans-serif;
+    font-weight: 300;
+    line-height: 0px;
+    padding-bottom: 0px;
+    font-size: 15px;
+
+}
+
+#contact > ul > li {
+    list-style: none;
+    font-family: 'LG Smart Regular Italic', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+#sub-main{
+    font-size: 15px;
+    color: red;
+    margin-left: 300px;
+    padding-top: 25px;
+    text-transform: none;
+}
+
+
+/*Nav items */
+
+nav {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
+    height: 70px;
+    opacity: 0.9;
+}
+
+.nav-wrapper ul li {
+    line-height: 2;
+}
+
+.brand-logo p {
+    /*line-height: 1.72857;*/
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: -80px;
+    margin-left: 120px;
+}
+
+
+/*Home section*/
+#home .container{
+    background-color:whitesmoke;
+}
+/* Service section*/
+#services .container {
+    background-color: whitesmoke;
+}
+
+/* Address section*/
+#contact-sec .container{
+    background-color:whitesmoke;
+}
+
+.card-content h5 {
+    font-size: 13px;
+}
+
+#serv1 a {
+    display: inline-block;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 10px;
+}
+
+
+#side_logo img{
+    width: 35px;
+    height: 35px;
+}
+
+.slide1 {
+    animation: fade 8s infinite;
+    -webkit-animation: fade 8s infinite;
+}
+
+
+.dim{
+    opacity: 0.4;
+}
+
+.frg {
+    font-size: 30px;
+}
+.rsz{
+    margin-left: 25px;
+    text-align: left;
+    display: inline-block;
+    line-height: 2;
+    font-size: 11.5px;
+}
+
+/**************box Style Starts*****************/
+
+
+.box {
+    position: relative;
+    display: inline-block;
+    width: 260px;
+    height: 260px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 200, 0, 0.1);
+    border-radius: 5px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+    .box::after {
+        content: "";
+        border-radius: 5px;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 5px 15px rgba(0, 200, 0, 0.3);
+        opacity: 0;
+        -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .box:hover {
+        -webkit-transform: scale(1.25, 1.25);
+        transform: scale(1.25, 1.25);
+    }
+
+        .box:hover::after {
+            opacity: 1;
+        }
+
+/*------------------------------------------------------
+ *  ALL TEXT
+ *-------------------------------------------------------*/
+
+.text-center {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto, 'LG Smart Bold Italic', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+    /*text-transform:uppercase;*/
+}
+
+h2 {
+    color: #27C00A;
+    font-size: 30px;
+}
+
+    h2:after {
+        display: block;
+        content: "";
+        height: 2px;
+        width: 250px;
+        background: #27C00A;
+        margin: 10px auto 20px;
+    }
+
+
+h3 {
+    line-height: 20px;
+    font-size: 20px;
+    /*padding-bottom:20px;*/
+}
+
+h4 {
+    line-height: 40px;
+    font-size: larger;
+}
+
+h5 {
+    font-size: medium;
+}
+
+.slider .slides h5{
+    font-size: 20px;
+    color: #eeff41;
+    margin-top: -20px;
+}
+
+h6 {
+    font-size: 10px;
+}
+
+p {
+    font-weight: 250;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.content-described {
+    font-size: 12.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.2;
+}
+
+.service-title {
+    color: green;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.space-pad {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.space-pad2 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.space-pad3 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.space-pad4 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section {
+    padding-top: 50px;
+    /*padding-bottom:20px;*/
+}
+
+
+/*=======================================
+    CONTACT STYLES
+==================================================*/
+
+#social-icon a {
+    color: #616161 !important;
+    margin-right: 10px;
+    font-size: 20px;
+    float: none;
+}
+
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+    background-color: #27C00A;
+    color: #fff;
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+}
+
+/*------------------------------------------------------
+/* RESPONSIVE
+/*------------------------------------------------------*/
+
+@media (max-width: 991px) {
+    .bs-slider {
+        padding-top: 51px;
+        height: auto;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    .slide-text h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .slide-text > p {
+        font-size: 18px;
+    }
+}
+
+/*---------- MEDIA 480px ----------*/
+@media (max-width: 768px) {
+    .bs-slider {
+        padding-top: 51px;
+        height: auto;
+    }
+
+    #home{
+        height:auto;
+    }
+
+        .bs-slider > .carousel-inner > .item > img,
+        .bs-slider > .carousel-inner > .item > a > img {
+            height: 100%;
+        }
+
+    .slide-text {
+        padding: 10px 50px;
+    }
+
+        .slide-text h1 {
+            font-size: 30px;
+            line-height: 40px;
+            margin-bottom: 10px;
+        }
+
+        .slide-text > p {
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+
+    .control-round .carousel-control {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .bs-slider {
+        padding-top: 51px;
+        height: auto;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    .slide-text {
+        padding: 10px 30px;
+    }
+
+        .slide-text h1 {
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 5px;
+        }
+
+        .slide-text > p {
+            font-size: 12px;
+            line-height: 18px;
+            margin-bottom: 10px;
+        }
+
+        .slide-text > a.btn-default,
+        .slide-text > a.btn-primary {
+            font-size: 10px;
+            line-height: 10px;
+            margin-right: 10px;
+            text-align: center;
+            padding: 10px 15px;
+        }
+
+    .indicators-line > .carousel-indicators {
+        display: none;
+    }
+}

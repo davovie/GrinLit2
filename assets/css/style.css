@@ -1,0 +1,206 @@
+﻿/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+body {
+    font-family: Roboto, 'LG Smart Regular', sans-serif;
+    font-size:10px;
+}
+
+@font-face {
+    font-family: 'LG Smart Bold Italic';
+    src: url('../fonts/LG Smart Bold Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'LG Smart Bold';
+    src: url('../fonts/LG Smart Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'LG Smart Light';
+    src: url('../fonts/LG Smart Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'LG Smart Regular Italic';
+    src: url('../fonts/LG Smart Regular Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'LG Smart Regular';
+    src: url('../fonts/LG Smart Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'LG Smart SemiBold';
+    src: url('../fonts/LG Smart SemiBold.woff') format('woff');
+}
+
+
+
+
+/*=======================================
+    COLOR CODES
+==================================================*/
+.main-color {
+    color: #27C00A;
+}
+
+/*=======================================
+    NAVIGATION STYLES
+==================================================*/
+.navbar a {
+    color:#ffffff ;
+}
+.navbar-header a {
+    color:#ffffff !important;
+    padding-right:100px;
+}
+
+nav {
+	position: absolute;
+	width: 100%;
+    background: #fff;
+    z-index:99;
+}
+.fixed {
+	position: fixed; 
+	top: 0; 
+	min-height: 60px; 
+	z-index: 99;
+}
+
+.navbar-inverse {
+background-color: #27C00A;
+border-color: #05A250;
+}
+
+
+/*=======================================
+    HEADER STYLES
+==================================================*/
+
+.head-main {
+   font-size: 70px !important;
+font-weight: 900!important;
+ color:#fff;
+}
+.head-sub-main {
+    font-size:40px !important;
+    font-weight:600!important;
+    padding:5px 20px 30px 20px;
+    color: #27C00A;
+}
+.head-last {
+  
+    padding:5px 20px 200px 20px;
+    color:#fff;
+}
+
+.div-trans {
+padding:5px;
+background-color: rgba(0, 255, 41, 0.65);
+min-height: 350px;
+margin-top: 20px;
+color: #fff;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-bottom:30px;
+}
+.div-trans .form-control {
+      background-color: rgba(255, 255, 255, 0);
+}
+
+/*=======================================
+    Services  STYLES
+==================================================*/
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+color: #fff;
+background-color: #27C00A;
+}
+
+#Parallax-one {
+    background-image: url("../img/1.jpg");
+padding: 30px;
+background-repeat: no-repeat;
+background-position: center 0;
+background-size: cover;
+background-attachment: fixed;
+min-height:250px;
+color:#fff;
+}
+ #Parallax-one i {
+        color:#fff;
+    }
+/*=======================================
+    PRICING STYLES
+==================================================*/
+
+
+.plan {
+    background: #eef1f3;
+    padding: 0 0 15px 0;
+    margin: 30px 0px;
+    list-style: none;
+    text-align: center;
+  
+}
+
+.plan-active {
+          -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.head-active {
+    background-color: #658AEB!important;
+}
+.plan li {
+    padding: 15px 0px;
+    color: #434749;
+    border-top: 1px dashed #000;
+}
+
+.plan li.plan-head {
+   padding: 15px 0px;
+background-color: #6F6F6F;
+color: #FFFFFF;
+line-height: 20px;
+font-size: 20px;
+font-weight: 600;
+border: none;
+   }
+
+.plan li.main-price {
+   padding: 25px 0px;
+border: none;
+font-size: 30px;
+}
+#Parallax-two {
+    background: linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/2.png");
+    background-color: #000000;
+    padding:30px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+    color: #fff;
+}
+    #Parallax-two i {
+        color:#fff;
+    }
+
+
+
