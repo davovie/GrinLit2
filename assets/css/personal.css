@@ -93,7 +93,7 @@ nav {
 }
 
 #main_header {
-   
+    word-spacing: 40px;
     letter-spacing: 17px;
 }
 
@@ -143,6 +143,7 @@ nav {
 #slide2 {
     color: #c6ff00;
 }
+
 .frg {
     font-size: 30px;
 }
@@ -331,15 +332,7 @@ section {
         height: auto;
     }
 
-    .slide-text h1 {
-        font-size: 40px;
-        line-height: 50px;
-        margin-bottom: 20px;
-    }
 
-    .slide-text > p {
-        font-size: 18px;
-    }
 }
 
 /*---------- MEDIA 480px ----------*/
@@ -359,14 +352,23 @@ section {
 }
 
 @media (max-width: 480px) {
-    .bs-slider {
-        padding-top: 51px;
-        height: auto;
-    }
 
     #home {
         height: auto;
     }
 
- 
+    .slider .slides img {
+        width: 100%;
+        height: auto;
+    }
+
+    #side-logo {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #intro {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
